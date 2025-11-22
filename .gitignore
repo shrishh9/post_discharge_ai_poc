@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (secrets)
+.env
+.env.*
+!.env.example
+
+# Database files
+patients.db
+patients.json
+*.sqlite3
+
+# Chroma DB persistence
+chroma_db/
+
+# Logs
+logs/
+
+# Editor/project files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit artifacts
+.streamlit/
+
+# Large data files
+*.pdf
